@@ -78,10 +78,10 @@ The best part of waking up is having shortcuts in your cup! Some of my most used
 | `bsd`       | `brew search --desc`                                                                                 |
 | `bi`        | `brew info`\*                                                                                        |
 | `bis`       | `brew install`                                                                                       |
-| `cask`      | `brew cask`                                                                                          |
+| `cask`      | `brew --cask`                                                                                          |
 | `ci`        | `cask info`                                                                                          |
 | `cis`       | `cask install`                                                                                       |
-| `brewup`    | `brew -v update && brew -v upgrade && brew cask upgrade && brew -v cleanup --prune=5 && brew doctor` |
+| `brewup`    | `brew -v update && brew -v upgrade && brew --cask upgrade && brew -v cleanup --prune=5 && brew doctor` |
 
 ### Cask Tools
 
@@ -102,7 +102,7 @@ The best part of waking up is having shortcuts in your cup! Some of my most used
 | `brls` | `brew list`           |
 |  `bs`  | `brew search`         |
 | `bsd`  | `brew search --desc`  |
-| `cask` | `brew cask`           |
+| `cask` | `brew --cask`         |
 |  `ci`  | `brew cask info`      |
 | `cis`  | `brew cask install`   |
 | `cus`  | `brew cask uninstall` |
